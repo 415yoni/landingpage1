@@ -1,0 +1,154 @@
+.header-color{
+    background-color: #1F2937;
+    padding-bottom: 5px;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 700px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+   
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    
+}
+.bold, .button, .subtext{
+    display: flex;
+    margin-left: 20px;
+    border-left: 30px;
+    padding-left: 140px;
+}
+.bold{
+    display: flex;
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+    
+}
+.sub-header, p{
+    margin: 0;
+    padding:0;
+}
+.subtext{
+    display: flex;
+    color: #e5e7eb;
+    font-size: 18px;
+    inline-size: 450px;
+}
+
+button{
+    background-color: #3882f6;
+    border: 5;
+    border-radius: 10px;
+    color: white;
+    height: 30px;
+    width: 70px;
+    border-color:#1F2937;
+}
+.sub-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* to vertically align items if needed */
+    /* other styles... */
+    gap: 300px;
+}
+.groupies{
+    display: flex;
+    flex-direction: column; /* stack the elements vertically */
+    align-items: flex-start; /* align items to the start */
+    
+}
+.image{
+    display: flex;
+    /*flex-direction: row;*/
+    /*justify-content: flex-end;*/
+   
+    margin-right: 20px;
+    border-right: 30px;
+    padding-right: 140px;
+    height: 250px;
+    width: 950px;
+}
+
+.second-part{
+    display: flex;
+    background-color: #f9faf8;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.random{
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.image-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.image-1 img, .image-2 img {
+    width: 150px;  
+    height: 150px;  
+    border:5px;
+}
+.box-images {
+    display: flex;
+    gap: 20px; 
+}
+
+.third-part{
+    display: flex;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    padding: 175px;
+    border: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    gap: 18px;
+}
+.cred{
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.fourth-section{
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    flex-direction: column;
+    margin: 100px 200px;
+    padding-left: 70px;
+    padding-top: 40px;
+    height: 60px;
+    border: 3;
+    padding-bottom: 20px;
+
+
+}
+.under{
+    gap: 490px;
+}
+
+.bigger, .under{
+    display: flex;
+    flex-direction: row;
+    
+}
+.bigger{
+    font-size: 30px;
+}
